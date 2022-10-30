@@ -51,7 +51,7 @@ User.propTypes = {
     rate: PropTypes.string,
     completedMeetings: PropTypes.number,
     onDelete: PropTypes.func,
-    bookmark: PropTypes.bool,
+    bookmark: PropTypes.string,
     onToggleBookmark: PropTypes.func
 };
 export default User;
